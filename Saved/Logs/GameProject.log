@@ -894,3 +894,57 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.12-21.18.04:583][  0]LogAssetRegistry: Asset discovery search completed in 5.1264 seconds
 [2022.01.12-21.18.04:589][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2022.01.12-21.18.04:592][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.01.12-21.19.57:134][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.12-21.19.58:893][210]Cmd: DELETE
+[2022.01.12-21.19.58:894][210]Cmd: ACTOR DELETE
+[2022.01.12-21.19.58:895][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.01.12-21.19.58:903][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.01.12-21.19.58:903][210]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2022.01.12-21.19.59:746][311]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.01.12-21.19.59:877][323]Cmd: DELETE
+[2022.01.12-21.19.59:877][323]Cmd: ACTOR DELETE
+[2022.01.12-21.19.59:879][323]LogEditorActor: Deleted Actor: PlayerStart
+[2022.01.12-21.19.59:886][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.01.12-21.19.59:886][323]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.01.12-21.20.00:468][392]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2022.01.12-21.20.00:589][403]Cmd: DELETE
+[2022.01.12-21.20.00:589][403]Cmd: ACTOR DELETE
+[2022.01.12-21.20.00:590][403]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2022.01.12-21.20.00:597][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.01.12-21.20.00:598][403]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.01.12-21.20.01:028][454]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2022.01.12-21.20.01:149][465]Cmd: DELETE
+[2022.01.12-21.20.01:149][465]Cmd: ACTOR DELETE
+[2022.01.12-21.20.01:150][465]LogEditorActor: Deleted Actor: SkyLight
+[2022.01.12-21.20.01:156][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.01.12-21.20.01:157][465]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.01.12-21.20.01:763][538]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2022.01.12-21.20.01:847][545]Cmd: DELETE
+[2022.01.12-21.20.01:847][545]Cmd: ACTOR DELETE
+[2022.01.12-21.20.01:849][545]LogEditorActor: Deleted Actor: AtmosphericFog
+[2022.01.12-21.20.01:856][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.01.12-21.20.01:856][545]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.01.12-21.20.02:367][606]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.01.12-21.20.02:464][614]Cmd: DELETE
+[2022.01.12-21.20.02:464][614]Cmd: ACTOR DELETE
+[2022.01.12-21.20.02:464][614]LogEditorActor: Actor Light Source is referenced by Sky Sphere.
+[2022.01.12-21.20.03:520][614]LogSlate: Window 'Message' being destroyed
+[2022.01.12-21.20.03:525][614]Message dialog closed, result: Yes, title: Message, text: Actor Light Source is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Sky Sphere
+[2022.01.12-21.20.03:525][614]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.01.12-21.20.03:532][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.01.12-21.20.03:533][614]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.01.12-21.20.16:757][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.01.12-21.20.16:763][157]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.12-21.20.26:101][157]LogSlate: Window 'Save Level As' being destroyed
+[2022.01.12-21.20.26:114][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="../../../../../../Users/suits/OneDrive/Документы/Unreal Projects/GameProject/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.01.12-21.20.26:123][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.01.12-21.20.26:136][157]LogSavePackage: Moving '../../../../../../Users/suits/OneDrive/Документы/Unreal Projects/GameProject/Saved/Untitled632A59864C92BA5A002049B49235D16D.tmp' to '../../../../../../Users/suits/OneDrive/Документы/Unreal Projects/GameProject/Content/Untitled.umap'
+[2022.01.12-21.20.26:141][157]LogFileHelpers: Saving map 'Untitled' took 0.034
+[2022.01.12-21.20.26:148][157]AssetCheck: New page: Asset Save: Untitled
+[2022.01.12-21.20.26:148][157]LogContentValidation: Display: Validating World /Game/Untitled.Untitled
+[2022.01.12-21.20.26:174][159]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
